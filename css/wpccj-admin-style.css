@@ -1,0 +1,188 @@
+/* =========================
+        Basic Setup
+============================ */
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.wpccj_area{
+    margin: 10px 5px 0 0;
+    display: flex;
+    padding: 15px;
+}
+.wpccj_area .area_common{
+    background-color: rgb(255, 242, 247);
+}
+.wpccj_area .area_common h2{
+    background-color: #095783;
+    color: #ffffff;
+    padding: 10px 18px;
+}
+.wpccj_area .wpccj_content_area{
+    width: 80%;
+    margin-right: 15px;
+}
+.wpccj_area .wpccj_content_area form{
+    margin: 25px 15px;
+}
+.wpccj_area .wpccj_sidebar_area{
+    width: 20%;
+    background-color: #f5e75593 !important;
+}
+.wpccj_area form h3{
+    margin-left: 15px;
+    font-size: 20px;
+    color: #05051f;
+    margin-top: 10px;
+}
+.wpccj_area .all_color_style{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wpccj_area .form-group{
+    width: 30%;
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.wpccj_area .all_color_style .form-group input[type="color"]{
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+.wpccj_area .form-group input[type="text"],
+.wpccj_area .form-group input[type="url"]{
+    text-align: left;
+    width: 100%;
+    border: 1px solid #32324d;
+    margin-top: 5px;
+}
+
+.wpccj_area input[type="submit"]{
+    margin: 20px 0 0 10px;
+}
+
+/* Sidebar Author Info */
+.wpccj_sidebar_area .author_card{
+    text-align: center;
+    margin-top: 30px;
+}
+.wpccj_sidebar_area .author_card img{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+.wpccj_sidebar_area .author_card h3{
+    font-size: 20px;
+    color: #05051f;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.wpccj_sidebar_area .author_card p{
+    margin-top: 6px !important;
+}
+.wpccj_sidebar_area .author_card ul.social_link{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.wpccj_sidebar_area .author_card ul.social_link a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #05051f;
+    margin: 5px 3px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+.wpccj_sidebar_area .author_card ul.social_link a span{
+    line-height: 32px;
+    font-size: 16px;
+}
+
+/* Donation Link */
+.wpccj_sidebar_area .donation_link{
+    background-color: #a91852;
+    margin: 30px 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wpccj_sidebar_area .donation_link .donation_box{
+    margin: 50px auto;
+    text-align: center;
+}
+.wpccj_sidebar_area .donation_link .donation_box h3{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.wpccj_sidebar_area .donation_link .donation_box a{
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 51px;
+    background-color: #ffffff;
+    border: 1px solid #282246;
+    box-shadow: 1px 0 20px rgba(86, 86, 86, 0.4);
+    width: 120px;
+    height: 25px;
+    padding: 10px 20px;
+}
+.wpccj_sidebar_area .donation_link .donation_box a img{
+    width: 100%;
+    height: auto;
+}
+
+background{
+    background-image: url('image address');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* =========================
+        Editor Design
+============================ */
+.wpccj_area .editor {
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px 10px;
+}
+.wpccj_area .editor .editor-head {
+    background-color: #05051f;
+    text-align: center;
+}
+.wpccj_area .editor .editor-head {
+    background-color: #05051f;
+    text-align: center;
+    position: relative;
+}
+.wpccj_area .editor .editor-head h5{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.wpccj_area .editor .editor-head .apple-bar{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin: 10px 0 0 14px;
+}
+.wpccj_area .editor .editor-head .apple-bar span{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
