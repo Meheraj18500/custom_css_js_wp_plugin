@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Custom Css Js
- * Plugin URI:        https://wordpress.org/plugins/custom-css-js/
+ * Plugin Name:       Easy Custom Css and Js
+ * Plugin URI:        https://wordpress.org/plugins/easy-custom-css-and-js/
  * Description:       This is a Custom Css Js plugin. You can add your desire code on your project. 
  * Version:           1.0.0
  * Requires at least: 5.2
